@@ -7,7 +7,7 @@ body {
   margin: 0;
   
   font-family: regular;
-  font-size: 20px;
+  font-size: 15px;
   letter-spacing: 10px;
   word-spacing: 5px;
   line-height: 40px;
@@ -22,4 +22,5 @@ body {
 
 .window {
   text-align: center;
+  max-width: 80vw;
 }

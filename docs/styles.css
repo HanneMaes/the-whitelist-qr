@@ -9,6 +9,7 @@ body {
   font-family: regular;
   font-size: 20px;
   letter-spacing: 10px;
+  word-spacing: 5px;
   
   width: 100vw;
   height: 100vh;

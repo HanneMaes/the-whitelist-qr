@@ -6,10 +6,17 @@
 body {
   margin: 0;
   font-family: spaceRegular;
+  
+  width: 100vw;
+  height: 100vh;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .window {
-  margin: 0;
-  font-family: spaceRegular;
-  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

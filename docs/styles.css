@@ -1,0 +1,15 @@
+@font-face {
+  font-family: brutal;
+  src: url(fonts/leMurmureJuly2019/Le_Murmure-Regular_web.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: spaceRegular;
+}
+
+.window {
+  margin: 0;
+  font-family: spaceRegular;
+  letter-spacing: 1px;
+}

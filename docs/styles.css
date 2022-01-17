@@ -5,7 +5,10 @@
 
 body {
   margin: 0;
+  
   font-family: spaceRegular;
+  font-size: 20px;
+  letter-spacing: 10px;
   
   width: 100vw;
   height: 100vh;
@@ -16,7 +19,5 @@ body {
 }
 
 .window {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }

@@ -1,12 +1,12 @@
 @font-face {
-  font-family: brutal;
-  src: url(fonts/leMurmureJuly2019/Le_Murmure-Regular_web.ttf);
+  font-family: regular;
+  src: url(fonts/OpenSans-Regular.ttf);
 }
 
 body {
   margin: 0;
   
-  font-family: spaceRegular;
+  font-family: regular;
   font-size: 20px;
   letter-spacing: 10px;
   

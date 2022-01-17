@@ -37,7 +37,7 @@
 <!-- ---- -->
   
 <div class="window">
-  <div class="text"></div>
+  <div id="text" data-aos="fade-up">...</div>
 </div>
   
 <!-- ---------- -->
@@ -54,7 +54,7 @@
     "Details make perfection,<br>and perfection is not a detail."
   ]
   
-  document.getElementByClass("text").innerHTML = arr[Math.floor(Math.random() * arr.length)];
+  document.getElementById("text").innerHTML = arr[Math.floor(Math.random() * arr.length)];
   
 </script>
   

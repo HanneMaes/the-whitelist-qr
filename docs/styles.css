@@ -44,9 +44,10 @@ body {
 }
 
 .closeBtn {
-  width:  27px;
-  height: 27px;
+  width:  5px;
+  height: 5px;
   background-color: #7B1737;
-  border: 5px solid #C90A46;
+  border: 2px solid #C90A46;
+  border-radius: 50%;
   padding: 40px;
 }

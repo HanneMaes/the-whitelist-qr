@@ -21,6 +21,7 @@ body {
   
   background-image: url("images/pattern.jpg");
   background-repeat: repeat;
+  opacity: 0.5;
 }
 
 .window {

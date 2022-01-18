@@ -57,11 +57,10 @@ body {
   background-color: #7B1737;
   border: 2px solid #C90A46;
   border-radius: 50%;
-  transform: scale(0.9);
 }
 .closeBtn:hover {
   background-color: #7B1737;
-  transform: scale(1);
+  border: 6px solid #C90A46;
 }
 
 #text {
@@ -92,5 +91,5 @@ a {
   text-decoration: none;
 }
 a:hover {
-  background-color: #7B1737;
+  color: 7B1737
 }

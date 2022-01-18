@@ -69,7 +69,7 @@ body {
   border-radius: 50%;
   color: #7B1737;
   
-  transition: transform 0.2s;
+  transition: all 0.2s;
   transform: scale(1);
   transform: rotate(90deg);
 }
@@ -107,8 +107,7 @@ footer {
 a {
   text-decoration: none;
   
-  transition: color   0.2s;
-  transition: padding 0.2s;
+  transition: all   0.2s;
   color: black;
   padding-bottom: 0px;
 }

@@ -97,11 +97,11 @@ body {
 
 footer {
   font-family: bold;
-  font-size: 10px;
+  font-size: 11px;
   letter-spacing: 5px;
   word-spacing: 5px;
   padding: 10px;
-  color: #7B1737;
+  color: black;
 }
 
 a {
@@ -109,7 +109,7 @@ a {
   font-family: boldItalic;
   
   transition: all   0.2s;
-  color: black;
+  color: #7B1737;
   padding-bottom: 0px;
 }
 a:hover {

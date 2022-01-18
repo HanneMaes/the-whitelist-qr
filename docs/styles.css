@@ -82,7 +82,7 @@ body {
 }
 .closeBtn:hover {
   background-color: #C90A46;
-  transform: scale(1.3) rotate(90deg);
+  transform: scale(1.3) rotate(45deg);
 }
 
 #text {
@@ -116,9 +116,7 @@ a {
   
   transition: all 0.2s;
   color: #7B1737;
-  background-color: rgba(0, 0, 0, 0);
 }
 a:hover {
   color: #C90A46;
-  background-color: rgba(0, 0, 0, 1);
 }

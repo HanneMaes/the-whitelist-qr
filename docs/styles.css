@@ -41,6 +41,15 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+.titlebar:after {
+    content:"";
+    position:absolute;
+    width:100%;
+    bottom:1px;
+    z-index:-1;
+    transform:scale(.9);
+    box-shadow: 0px 0px 8px 2px #000000;
+}
 
 .closeBtn {
   width:  10px;

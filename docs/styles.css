@@ -52,15 +52,16 @@ body {
 }
 
 .closeBtn {
-  width:  10px;
-  height: 10px;
+  width:  14px;
+  height: 14px;
   background-color: #7B1737;
   border: 2px solid #C90A46;
   border-radius: 50%;
+  transform: scale(0.6)
 }
 .closeBtn:hover {
-  background-color: #7B1737;
-  border: 6px solid #C90A46;
+  background-color: #C90A46;
+  transform: scale(1)
 }
 
 #text {
@@ -83,7 +84,8 @@ footer {
   font-size: 10px;
   letter-spacing: 5px;
   word-spacing: 5px;
-  color: rgba(0, 0, 0, 0.5)
+  padding: 10px;
+  color: #7B1737;
 }
 
 a {
@@ -91,5 +93,5 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: 7B1737
+  color: #C90A46;
 }

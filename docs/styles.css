@@ -116,13 +116,9 @@ a {
   
   transition: all 0.2s;
   color: #7B1737;
-  
-  border: 3px solid #ff7a59;
+  background-color: rgba(0, 0, 0, 0);
 }
 a:hover {
   color: #C90A46;
-  
-  border: 3px dotted #ff7a59;
-  color: #ff7a59;
-  background: #fff;
+  background-color: rgba(0, 0, 0, 1);
 }

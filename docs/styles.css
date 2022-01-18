@@ -59,4 +59,5 @@ body {
   padding-left: 40px;
   padding-right: 40px;
   linear-gradient(to bottom, rgba(212,212,212,1) 0%,rgba(255,255,255,1) 25%)
+  border-radius: 0px 0px 15px 15p
 }

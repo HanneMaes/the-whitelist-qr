@@ -26,4 +26,7 @@ body {
 .window {
   text-align: center;
   max-width: 80vw;
+  background-color: white;
+  border-radius: 30px;
+  padding: 40px
 }

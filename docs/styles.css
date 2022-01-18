@@ -52,8 +52,9 @@ body {
 }
 
 #text {
-   font-size: 15px;
-   letter-spacing: 10px;
-   word-spacing: 5px;
-   line-height: 40px;
+  font-size: 15px;
+  letter-spacing: 10px;
+  word-spacing: 5px;
+  line-height: 40px;
+  padding: 20px;
 }

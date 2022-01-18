@@ -12,7 +12,8 @@ body {
   height: 100vh;
   
   display: flex;
-  justify-content: center;
+  flex-direction: column:
+  justify-content: space-between;
   align-items: center;
   
   background-image: url("images/pattern.jpg");
@@ -81,6 +82,8 @@ body {
 
 footer {
   font-size: 12px;
+  letter-spacing: 5px;
+  word-spacing: 5px;
   color: rgba(0, 0, 0, 0.5)
 }
 

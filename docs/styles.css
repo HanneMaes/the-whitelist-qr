@@ -5,12 +5,12 @@
 
 @font-face {
   font-family: bold;
-  src: url(fonts/Open_Sans/OpenSans-Bold.ttf);
+  src: url(fonts/Open_Sans/OpenSans-ExtraBold.ttf);
 }
 
 @font-face {
-  font-family: bold;
-  src: url(fonts/Open_Sans/OpenSans-Bold.ttf);
+  font-family: boldItalic;
+  src: url(fonts/Open_Sans/OpenSans-ExtraBoldItalic.ttf);
 }
 
 body {
@@ -106,6 +106,7 @@ footer {
 
 a {
   text-decoration: none;
+  font-family: boldItalic;
   
   transition: all   0.2s;
   color: black;

@@ -30,6 +30,34 @@ body {
   background-repeat: repeat;
 }
 
+/*********************/
+/* WINDOW ANIMATIONS */
+/*********************/
+
+.closeBtn {
+  width:  14px;
+  height: 14px;
+  background-color: #7B1737;
+  border: 2px solid #C90A46;
+  border-radius: 50%;
+  color: #7B1737;
+  font-size: 20px;
+  font-family: boldText;
+  user-select: none;
+  
+  /* center contenct */
+  text-align: center;
+  vertical-align: middle;
+  line-height: 14px; /* The same as your div height */
+  
+  transition: all 0.2s;
+  transform: scale(1) rotate(-45deg);
+}
+.closeBtn:hover {
+  background-color: #C90A46;
+  transform: scale(1.3) rotate(45deg);
+}
+
 /**********/
 /* WINDOW */
 /**********/
@@ -60,30 +88,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.closeBtn {
-  width:  14px;
-  height: 14px;
-  background-color: #7B1737;
-  border: 2px solid #C90A46;
-  border-radius: 50%;
-  color: #7B1737;
-  font-size: 20px;
-  font-family: boldText;
-  user-select: none;
-  
-  /* center contenct */
-  text-align: center;
-  vertical-align: middle;
-  line-height: 14px; /* The same as your div height */
-  
-  transition: all 0.2s;
-  transform: scale(1) rotate(-45deg);
-}
-.closeBtn:hover {
-  background-color: #C90A46;
-  transform: scale(1.3) rotate(45deg);
 }
 
 #text {

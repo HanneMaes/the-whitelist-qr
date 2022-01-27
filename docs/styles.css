@@ -53,13 +53,15 @@ body {
   }
 }
 
+.windowIn .windowOut {
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
 .windowIn {
   animation-name: windowdAnimIn;
-  animation-duration: 0.5s;
 }
 .windowOut {
   animation-name: windowdAnimOut;
-  animation-duration: 0.5s;
 }
 
 .closeBtn {

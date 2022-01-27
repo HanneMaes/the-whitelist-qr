@@ -34,17 +34,20 @@ body {
 /* WINDOW ANIMATIONS */
 /*********************/
 
-@keyframes windowdAnim {
+@keyframes windowdAnimIn {
   0% {
     transform: scale(0);
+    margin-top: 100px;
   } 60% {
-    transform: scale(1.2);
+    transform: scale(1.1);
+    margin-top: -10px;
   } 100% {
     transform: scale(1);
+    margin-top: 0px;
   }
 }
 .window {
-  animation-name: windowdAnim;
+  animation-name: windowdAnimIn;
   animation-duration: 0.5s;
 }
 

@@ -50,7 +50,6 @@
 
 <!-- my script -->
 <script>
-  console.log('V2')
 document.addEventListener("DOMContentLoaded", function() {
   
   // random text
@@ -65,12 +64,8 @@ document.addEventListener("DOMContentLoaded", function() {
   // close window
   windowElement = document.getElementsByClassName('window')[0]
   windowElement.addEventListener('click', function() {
-    console.log('KLIK')
     windowElement.classList.remove('windowIn')
     windowElement.classList.add('windowOut')
-    console.log('----')
-    console.log(windowElement.classList)
-    console.log('----')
   })
 })
 </script>
